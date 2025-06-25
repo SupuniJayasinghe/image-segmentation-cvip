@@ -25,7 +25,7 @@ def region_growing(img, seed, threshold=30):
     return output
 
 
-image = cv2.imread("../images/original_image.png", cv2.IMREAD_GRAYSCALE)
+image = cv2.imread("../images/dragon.jpg", cv2.IMREAD_GRAYSCALE)
 
 # Seed point inside Object 1
 seed_point = (55, 55)

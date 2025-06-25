@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-image = cv2.imread("../images/original_image.png", cv2.IMREAD_GRAYSCALE)
+image = cv2.imread("../images/dragon.jpg", cv2.IMREAD_GRAYSCALE)
 
 # Add Gaussian noise
 mean, std = 0, 20
